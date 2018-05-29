@@ -59,4 +59,4 @@ function doSomeThing(arrParameter) {
     console.log(arrParameter);
 }
 doSomeThing(arr);
-console.log(arr)
+console.log(arr) //tömböknél referencia szerinti átadás van. figyelni! push változtat
