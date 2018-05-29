@@ -31,3 +31,15 @@ function summarizeTwoNumbers(a, b) {
     return a + b;
 }
 console.log(summarizeTwoNumbers(10, 20));
+
+//New function
+
+function defaultParameterExample(a = "first", b = "second") {
+    //megadunk alapértéket (default):first, second, ami akkor érvényesül ha nem jön be érték
+    console.log("Első paraméter:" + a);
+    console.log("Második paraméter:" + b);
+}
+// meghívás
+defaultParameterExample("bla", "blabla")
+
+//ha nincs visszatérési érték vagy return üres, akkor undefined
